@@ -37,4 +37,5 @@ def check_wallet(token:str, wallets: list):
 if __name__ == '__main__':
     token, walletsToCheck = getParams()
     check_wallet(token, walletsToCheck)
+    input()
 
